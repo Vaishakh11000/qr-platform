@@ -30,13 +30,9 @@ Administrator dashboard:
 
 ![QR Platform administrator dashboard](docs/screenshots/admin-dashboard.png)
 
-Public product page on a phone:
+Public website after scanning a QR code (phone view):
 
-<img src="docs/screenshots/public-mobile-product-page.png" alt="QR Platform mobile product page" width="320">
-
-Product specifications on a phone:
-
-<img src="docs/screenshots/public-mobile-product-specifications.png" alt="QR Platform mobile product specifications" width="320">
+<img src="docs/screenshots/public-mobile-post-scan.png" alt="QR Platform public product page after a scan, displayed at a phone viewport" width="320">
 
 ## Local development
 
