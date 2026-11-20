@@ -26,13 +26,17 @@ The following integrations are not configured in this release: IP geolocation, e
 
 ## Screenshots
 
-Administrator sign-in:
+Administrator dashboard:
 
-![QR Platform administrator sign-in](docs/screenshots/admin-sign-in.png)
+![QR Platform administrator dashboard](docs/screenshots/admin-dashboard.png)
 
-Public product website:
+Public product page on a phone:
 
-![QR Platform public product website](docs/screenshots/public-product-site.png)
+<img src="docs/screenshots/public-mobile-product-page.png" alt="QR Platform mobile product page" width="320">
+
+Product specifications on a phone:
+
+<img src="docs/screenshots/public-mobile-product-specifications.png" alt="QR Platform mobile product specifications" width="320">
 
 ## Local development
 
