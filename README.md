@@ -21,27 +21,46 @@ The following integrations are not configured in this release: IP geolocation, e
 | `public-web/` | Next.js customer product and QR scan site |
 | `database/` | Database setup and supporting SQL |
 | `deployment/` | Nginx configuration and LAN certificate helper |
-| `docs/` | Development workflow, operations, and publishing guidance |
+| `docs/` | User guide, operations, development workflow, screenshots, and publishing guidance |
 | `compose*.yaml` | Local database, LAN preview, and production deployment definitions |
+
+## Screenshots
+
+Administrator sign-in:
+
+![QR Platform administrator sign-in](docs/screenshots/admin-sign-in.png)
+
+Public product website:
+
+![QR Platform public product website](docs/screenshots/public-product-site.png)
 
 ## Local development
 
 Requirements: Docker with Compose, Python 3.12 or newer, Node.js 22, and npm.
 
-1. Copy `.env.example` to `.env`. Set unique local database credentials and generate `ADMIN_TOKEN_SECRET` with `openssl rand -hex 32`. Keep `.env` private.
-2. Start the local PostGIS database:
+On a new laptop, clone the repository and create a private local environment file:
+
+```sh
+git clone https://github.com/Vaishakh11000/qr-platform.git
+cd qr-platform
+cp .env.example .env
+```
+
+Edit `.env` and set a unique database password and an admin token secret generated with `openssl rand -hex 32`. Do not commit `.env`. The following steps start a local development database and the three applications; the administrator and public websites run only on this laptop unless you follow the LAN instructions below.
+
+1. Start the local PostGIS database:
 
    ```sh
    docker compose up -d database
    ```
 
-3. Create the dedicated test database once. Tests create and drop application tables in this database, so do not point it at data you need to retain:
+2. (Optional, for backend tests) Create the dedicated test database once. Tests create and drop application tables in this database, so do not point it at data you need to retain:
 
    ```sh
    docker exec qr-platform-db sh -lc 'createdb -U "$POSTGRES_USER" qr_platform_test'
    ```
 
-4. Install backend dependencies, apply local development migrations, and create the first administrator:
+3. Install backend dependencies, apply local development migrations, and create the first administrator:
 
    ```sh
    python3 -m venv .venv
@@ -50,7 +69,7 @@ Requirements: Docker with Compose, Python 3.12 or newer, Node.js 22, and npm.
    PYTHONPATH=backend .venv/bin/python backend/scripts/create_first_admin.py
    ```
 
-5. Run the API and administrator console in separate terminals:
+4. Run the API and administrator console in separate terminals:
 
    ```sh
    PYTHONPATH=backend .venv/bin/uvicorn app.main:app --reload --port 8000
@@ -62,13 +81,24 @@ Requirements: Docker with Compose, Python 3.12 or newer, Node.js 22, and npm.
    npm run dev
    ```
 
-6. Run the customer website in another terminal:
+5. Run the customer website in another terminal:
 
    ```sh
    cd public-web
    npm ci
    API_INTERNAL_URL=http://127.0.0.1:8000 npm run dev
    ```
+
+Open the administrator console at `http://127.0.0.1:5173` and the public site at `http://127.0.0.1:3000`.
+
+To load the included VINSAK sample catalogue on a fresh demo laptop, set `POSTGRES_DB=qr_platform_demo` in `.env` **before** starting the database, then run this after migrations and administrator setup:
+
+```sh
+DEBUG=false PYTHONPATH=backend .venv/bin/python backend/scripts/import_vinsak_seed.py \
+  --apply --confirm-database qr_platform_demo
+```
+
+The imported products and versions are drafts and need review and publication in the admin console. The source notes that media licensing has not been confirmed; review `backend/data/vinsak_seed/README.md` before distributing catalogue media.
 
 The API health endpoints are `/health` and `/ready`; the interactive API schema is at `/docs`. Local product media defaults to the ignored `storage/` directory.
 
@@ -100,4 +130,4 @@ The backend test fixtures create and drop test schema tables. Never set `TEST_PO
 - [Detailed product and hierarchy user guide](docs/USER_GUIDE.md)
 - [Operations and deployment](docs/OPERATIONS.md)
 - [Development workflow](docs/DEVELOPMENT_WORKFLOW.md)
-- [GitHub publishing and safe first push](docs/GITHUB_PUBLISHING.md)
+- [GitHub repository, downloads, and contribution workflow](docs/GITHUB_PUBLISHING.md)
