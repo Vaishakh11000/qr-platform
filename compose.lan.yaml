@@ -1,0 +1,96 @@
+name: qr-platform-lan
+
+x-default-logging: &default-logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    env_file:
+      - .env
+      - .env.lan
+    environment:
+      DEBUG: "false"
+      POSTGRES_HOST: database
+      POSTGRES_PORT: "5432"
+      MEDIA_STORAGE_ROOT: /data/media
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:?Set PUBLIC_BASE_URL in .env.lan}
+    volumes:
+      - ./storage:/data/media
+    networks:
+      - development
+    healthcheck:
+      test: ["CMD", "python", "-c", "from urllib.request import urlopen; urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    logging: *default-logging
+
+  public-web:
+    build:
+      context: ./public-web
+      dockerfile: Dockerfile
+      args:
+        API_INTERNAL_URL: http://backend:8000
+    restart: unless-stopped
+    networks:
+      - development
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    logging: *default-logging
+
+  admin-web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    networks:
+      - development
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    logging: *default-logging
+
+  proxy:
+    image: nginx:1.30.7-alpine
+    restart: unless-stopped
+    ports:
+      - "${LAN_BIND_ADDRESS:?Set LAN_BIND_ADDRESS in .env.lan}:${LAN_PUBLIC_PORT:-8080}:80"
+      - "${LAN_BIND_ADDRESS:?Set LAN_BIND_ADDRESS in .env.lan}:${LAN_ADMIN_PORT:-8081}:81"
+      - "${LAN_BIND_ADDRESS:?Set LAN_BIND_ADDRESS in .env.lan}:${LAN_HTTPS_PUBLIC_PORT:-8443}:443"
+      - "${LAN_BIND_ADDRESS:?Set LAN_BIND_ADDRESS in .env.lan}:${LAN_HTTPS_ADMIN_PORT:-8444}:444"
+    volumes:
+      - ./deployment/nginx/lan.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./deployment/certs-lan:/etc/nginx/certs:ro
+    networks:
+      - development
+    depends_on:
+      public-web:
+        condition: service_healthy
+      admin-web:
+        condition: service_healthy
+      backend:
+        condition: service_healthy
+    logging: *default-logging
+
+networks:
+  development:
+    external: true
+    name: qr-platform_default

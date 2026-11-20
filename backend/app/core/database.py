@@ -1,14 +1,17 @@
 
 # backend/app/core/database.py
 
+from collections.abc import Generator
+
 from sqlalchemy import create_engine
-from sqlalchemy.orm import DeclarativeBase, sessionmaker
+from sqlalchemy.engine import Engine
+from sqlalchemy.orm import Session, sessionmaker
 
-from app.core.config import DATABASE_URL
+from app.core.config import settings
 
 
-engine = create_engine(
-    DATABASE_URL,
+engine: Engine = create_engine(
+    settings.database_url,
     pool_pre_ping=True,
     pool_size=5,
     max_overflow=10,
@@ -16,21 +19,23 @@ engine = create_engine(
 )
 
 
-SessionLocal = sessionmaker(
+SessionLocal: sessionmaker[Session] = sessionmaker(
     bind=engine,
+    class_=Session,
     autoflush=False,
     expire_on_commit=False,
 )
 
 
-class Base(DeclarativeBase):
-    pass
+def get_db() -> Generator[Session, None, None]:
+    """
+    Provide a database session for the duration of a request.
 
-
-def get_db():
+    The session is always closed after the request finishes.
+    """
     db = SessionLocal()
+
     try:
         yield db
     finally:
         db.close()
-

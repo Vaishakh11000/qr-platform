@@ -1,0 +1,402 @@
+{
+  "source_page": "https://vinsak.com/products/",
+  "retrieved_on": "2026-11-18",
+  "description": "Structured product seed data extracted from the VINSAK products listing and linked product detail pages. Examples are illustrative demo content, not VINSAK customer case studies.",
+  "catalog_listing_count": 14,
+  "products": [
+    {
+      "id": "vinsak-usar",
+      "name": "VINSAK USAR (Universal Slitter and Rewinder)",
+      "category": [
+        "Conventional Finishing Solutions",
+        "Label Finishing Solutions",
+        "Slitting/Rewinding"
+      ],
+      "summary": "Modular slitter-rewinder platform configurable with die-cutting, inspection, inkjet and digital cold-foiling modules.",
+      "description": "Designed for high-resolution security printing and customizable finishing. The modular configuration can include slitter-rewinder, die-cutting, 100% inspection, inkjet and digital cold foiling. The product page states speeds up to 300 m/min and describes variable-data printing for barcodes, QR codes, numbering and other data.",
+      "specifications": {
+        "maximum_speed": "Up to 300 m/min",
+        "web_width_options": "330 mm, 450 mm and 530 mm (USAR slitter configuration)",
+        "unwind_diameter": "700 mm standard; upgrade option up to 1000 mm",
+        "maximum_rewind_diameter": "1000 mm single rewind; 450 mm dual rewind",
+        "other": "Servo-driven major components; electronic web guidance; optional inspection camera; configurable modules"
+      },
+      "applications": [
+        "Security printing",
+        "Label converting and finishing",
+        "Variable-data printing",
+        "Barcode and QR-code printing",
+        "Flexible packaging and lami-tube film handling"
+      ],
+      "example": "A label converter produces a roll of serialized product labels. A variable-data job prints a unique QR code on each label, while an inspection camera checks print quality and the slitter-rewinder prepares finished rolls.",
+      "source_url": "https://vinsak.com/vinsak-usar-universal-slitter-and-rewinder-2/",
+      "data_quality_note": "Specifications vary by configuration; confirm the exact machine build with VINSAK."
+    },
+    {
+      "id": "label-decore",
+      "name": "VINSAK LABEL-DECORE",
+      "category": [
+        "Digital Embellishment",
+        "Label Converting",
+        "Variable Data Printing"
+      ],
+      "summary": "Modular label embellishment system for raised effects, digital foiling, cast-and-cure effects and variable data.",
+      "description": "The page describes embossing/raised glossy textures, spot varnish, digital foiling without dies, cast-and-cure effects and variable-data printing. In grayscale mode, the system can switch fluids from varnish to black inks to print barcodes, QR codes and serial numbers.",
+      "specifications": {
+        "model": "VINSAK HB X 50i (extended-frame configuration)",
+        "maximum_varnish_deposition": "250 micron",
+        "resolution": "720 dpi",
+        "maximum_speed": "50 m/min",
+        "grey_levels": "Up to 8",
+        "drop_size": "14–84 pL",
+        "available_print_width": "Multiples of 70 mm, up to 530 mm",
+        "printing_method": "Single pass",
+        "database_support": "Yes",
+        "workflow": "Smart PDF Workflow",
+        "electrical_requirement": "230 V / 50 Hz"
+      },
+      "applications": [
+        "Premium label embellishment",
+        "Spot varnish and raised textures",
+        "Digital foiling",
+        "Cast-and-cure effects",
+        "Barcode, QR-code and serial-number printing"
+      ],
+      "example": "A cosmetics brand uses a raised glossy logo and digital foil on its label, while a variable QR code links each finished pack to a product-information page.",
+      "source_url": "https://vinsak.com/label-decore/",
+      "data_quality_note": "The source page describes LABEL-DECORE and gives the HB X 50i technical configuration; verify configuration options with VINSAK."
+    },
+    {
+      "id": "universal-520-680-850",
+      "name": "UNIVERSAL 520 | 680 | 850",
+      "category": [
+        "Printing Press Solutions",
+        "Offset Machines",
+        "Rotatek Products"
+      ],
+      "summary": "Combined offset and flexo sleeve rotary press for labels, flexible packaging, folding cartons and security/transactional documents.",
+      "description": "The Rotatek product page describes interchangeable lightweight offset sleeves that simplify format changes. It highlights flexibility across substrates and lower pre-printing costs compared with flexo plates or rotogravure rollers.",
+      "specifications": {},
+      "applications": [
+        "Labels",
+        "Flexible packaging",
+        "Folding cartons",
+        "Transactional documents",
+        "Security printing"
+      ],
+      "example": "A packaging printer runs different label formats for multiple customers and changes formats using interchangeable sleeves rather than replacing a full set of heavy cylinders.",
+      "source_url": "https://rotatek.com/printing-machinery/universal/",
+      "data_quality_note": "The source page is hosted by Rotatek and is linked from VINSAK's product listing. The listing names 520/680/850; the opened Rotatek page is the UNIVERSAL family page and does not confirm every model-specific dimension."
+    },
+    {
+      "id": "rk-250-plus",
+      "name": "RK-250 Plus",
+      "category": [
+        "Printing Press Solutions",
+        "Offset Machines",
+        "Rotatek Products"
+      ],
+      "summary": "Variable-format rotary offset press designed for full-colour, security and commercial documents.",
+      "description": "The product page describes a shaftless rotary offset press with quick format changes, 16-roller inking batteries, front-positioned inkwells, automatic zero positioning and remote-controlled longitudinal register.",
+      "specifications": {
+        "mechanical_speed": "250 m/min",
+        "inking": "16-roller batteries"
+      },
+      "applications": [
+        "Security documents",
+        "Transactional documents",
+        "Forms",
+        "Commercial printing"
+      ],
+      "example": "A secure document printer produces multi-colour forms and numbered transactional documents using a rotary offset press configured for its required format.",
+      "source_url": "https://rotatek.com/printing-machinery/rk-250-plus/",
+      "data_quality_note": "Rotatek page is the linked detailed product source."
+    },
+    {
+      "id": "perfect-nt-rk-500",
+      "name": "PERFECT NT / RK-500",
+      "category": [
+        "Printing Press Solutions",
+        "Offset Machines",
+        "Rotatek Products"
+      ],
+      "summary": "Shaftless rotary press intended especially for medium and long print runs.",
+      "description": "The product page highlights modular shaftless technology, automation, reduced material waste, reliable print and colour registration, rapid setup, auto-zero positioning and remote-controlled longitudinal register.",
+      "specifications": {
+        "maximum_mechanical_speed": "Up to 350 m/min"
+      },
+      "applications": [
+        "Labels",
+        "Flexible packaging",
+        "Folding cartons",
+        "Security documents",
+        "Transactional documents",
+        "Train tickets",
+        "PRS and UTS tickets"
+      ],
+      "example": "A ticketing and label-printing operation uses the press for longer production runs where repeatability, register accuracy and reduced setup waste matter.",
+      "source_url": "https://rotatek.com/printing-machinery/perfect-nt/",
+      "data_quality_note": "Rotatek page is the linked detailed product source."
+    },
+    {
+      "id": "brava-450",
+      "name": "BRAVA 450",
+      "category": [
+        "Printing Press Solutions",
+        "Offset Machines",
+        "Rotatek Products"
+      ],
+      "summary": "Combined wet-offset semi-rotary and rotary press with in-line finishing capabilities.",
+      "description": "The page describes switching between semi-rotary and rotary systems. Semi-rotary format changes do not require tools or cylinder changes. It is positioned for medium and short print runs.",
+      "specifications": {
+        "print_width": "420 mm",
+        "semi_rotary_speed": "12,000 cycles/hour",
+        "rotary_speed": "150 cycles/min"
+      },
+      "applications": [
+        "Food labels",
+        "Wine and spirits labels",
+        "Cosmetics",
+        "Pharmaceuticals",
+        "Electronics"
+      ],
+      "example": "A label producer prints short and medium runs for different bottle sizes, using semi-rotary mode to change formats without changing cylinders.",
+      "source_url": "https://rotatek.com/printing-machinery/brava-450/",
+      "data_quality_note": "Rotatek page is the linked detailed product source."
+    },
+    {
+      "id": "speed-jet-monochrome-1200-i",
+      "name": "SPEED-JET Monochrome 1200 I",
+      "category": [
+        "Inkjet Solutions",
+        "Variable Data Printing"
+      ],
+      "summary": "Industrial monochrome inkjet system for high-resolution variable data, barcodes and QR codes.",
+      "description": "The page describes digital workflow, soft proofing, remote job setup, database integration, support for industrial and mailing barcodes including Intelligent Mail Code and Data Matrix, and variable graphics/text. It can integrate with VINSAK camera, matching and read/print systems.",
+      "specifications": {
+        "print_width": "43 mm module; stitching up to 850 mm",
+        "native_resolution": "1200 dpi (600 redundant)",
+        "maximum_speed": "Up to 300 m/min (at 1200 x 600 dpi)",
+        "drop_size_uv": "2.4–10 pL",
+        "drop_size_aqueous": "3.5–13 pL",
+        "electrical": "220 V, 50–60 Hz, 10 A",
+        "data_types": "PDF, CSV, TXT",
+        "database_support": "Yes",
+        "vdp_software": "Included"
+      },
+      "applications": [
+        "Barcode and QR-code printing",
+        "Variable-data printing",
+        "Security code printing",
+        "Book printing",
+        "Transactional statements"
+      ],
+      "example": "A mailing house prints a unique Data Matrix or barcode on each document and uses matching/read-print equipment to associate printed pieces with the correct records.",
+      "source_url": "https://vinsak.com/vinsak-high-build-system-label-embellishment-tactile-inkjet-system/",
+      "data_quality_note": "Important source mismatch: VINSAK's products listing labels this item SPEED-JET Monochrome 1200 I, and the opened detail page uses that heading, but its introductory sentence refers to a High Build System. Confirm the exact model/spec sheet before publishing."
+    },
+    {
+      "id": "vinsak-security-software",
+      "name": "VINSAK Security Software",
+      "category": [
+        "Brand Protection Solutions",
+        "Security Printing"
+      ],
+      "summary": "Software for generating intricate security-printing artwork and anti-counterfeit design features.",
+      "description": "The page describes guilloches, border generation, relief generation, patterned relief, line modulation, micro-text/nano-text and hidden images in micro-text. It is positioned for security devices used on documents such as passports, certificates and banknotes.",
+      "specifications": {},
+      "applications": [
+        "Security documents",
+        "Certificates",
+        "Banknotes",
+        "Anti-counterfeit print design"
+      ],
+      "example": "A certificate issuer uses guilloche borders, micro-text and hidden line patterns as visual security features that are difficult to reproduce.",
+      "source_url": "https://vinsak.com/vinsak-security-software/",
+      "data_quality_note": "Software feature description; no pricing or licensing details were shown in the extracted page content."
+    },
+    {
+      "id": "vis-720-i",
+      "name": "VINSAK VIS 720-i",
+      "category": [
+        "Inkjet Solutions",
+        "Variable Data Printing"
+      ],
+      "summary": "Modular 72 mm industrial piezo drop-on-demand inkjet printhead system for variable data and barcode printing.",
+      "description": "The page describes scalable print width by adding modules, printing on offset/coated/gloss papers and films, and software support for digital workflow, soft proofing, remote job setup, standard industrial/mailing barcodes, variable graphics/data and integration with camera/matching/read-print systems.",
+      "specifications": {
+        "printhead": "Konica Minolta KM1024i",
+        "technology": "Piezo drop-on-demand",
+        "module_width": "72 mm",
+        "resolution_modes": "360 x 180 dpi; 360 x 360 dpi; 360 x 720 dpi",
+        "speed": "120 m/min at 360 x 180 dpi; 80 m/min at 360 x 360 dpi; 60 m/min at 360 x 720 dpi",
+        "grey_levels": "8",
+        "drop_volume": "14–42 pL",
+        "ink_types": "Water-based, solvent-based or UV-curable depending on application",
+        "maximum_width": "Scalable up to 360 mm"
+      },
+      "applications": [
+        "Variable-data printing",
+        "Industrial and mailing barcodes",
+        "Data Matrix",
+        "Printing on paper and film substrates"
+      ],
+      "example": "A label converter prints unique serial numbers and QR codes across a web of labels, with the print width expanded using multiple modules.",
+      "source_url": "https://vinsak.com/vis-720-i/",
+      "data_quality_note": "Speed depends on selected resolution mode."
+    },
+    {
+      "id": "vinsak-roll-lifter-vrl-s-200",
+      "name": "VINSAK Roll Lifter VRL-S-200",
+      "category": [
+        "Conventional Finishing Solutions",
+        "Material Handling"
+      ],
+      "summary": "Portable roll lifter with core gripper for lifting, turning and transporting rolls up to 200 kg.",
+      "description": "The product page describes a safety brake, 360-degree rotation, manual winch operation and a workflow for gripping, lifting, positioning and releasing rolls. It is intended to reduce manual labour and reduce damage to the top paper layer.",
+      "specifications": {
+        "maximum_roll_diameter": "700 mm",
+        "maximum_roll_weight": "200 kg",
+        "maximum_working_height": "1100 mm",
+        "maximum_roll_width": "550 mm",
+        "maximum_core_id": "76 mm"
+      },
+      "applications": [
+        "Paper-roll handling",
+        "Label-stock roll handling",
+        "Printing and converting production floors"
+      ],
+      "example": "An operator uses the roll lifter to move a heavy label-stock roll from storage to a machine's unwind position without manually lifting the roll.",
+      "source_url": "https://vinsak.com/vinsak-roll-lifter-vrl-series/",
+      "data_quality_note": "The product detail page identifies the model as VRL-S-200."
+    },
+    {
+      "id": "digijet-1000-2000",
+      "name": "VINSAK DigiJet 1000/2000",
+      "category": [
+        "Conventional Finishing Solutions",
+        "Label Finishing Solutions",
+        "Narrow Web",
+        "Variable Data Printing"
+      ],
+      "summary": "Narrow-web system for high-speed variable-data printing, including QR codes, barcodes, text and numbers.",
+      "description": "The page describes printing variable-data matrix codes, QR codes, barcodes, text and numbers for connected packaging. It mentions UV low-migration inks for food applications and water-based inkjet systems on special request.",
+      "specifications": {
+        "maximum_web_width": "350 mm",
+        "minimum_web_width": "200 mm",
+        "maximum_unwind_roll_diameter": "800 mm",
+        "maximum_speed_full_rotary": "150 m/min",
+        "maximum_speed_semi_rotary": "64 m/min",
+        "unwind_mandrel_diameter": "76 mm",
+        "rewind_details": "Upper rewind roll max diameter 600 mm; lower rewind roll max diameter 800 mm"
+      },
+      "applications": [
+        "Connected packaging",
+        "QR-code printing",
+        "Variable-data matrix codes",
+        "Barcode and text printing",
+        "Food-packaging print jobs subject to ink and application requirements"
+      ],
+      "example": "A food-packaging converter prints a unique QR code on each pack so a consumer can open product-specific information; production records can associate each printed code with a batch.",
+      "source_url": "https://vinsak.com/vinsak-digijet/",
+      "data_quality_note": "The page's low-migration ink statements are not a blanket food-contact compliance certification. Confirm ink, substrate and regulatory suitability for the intended application."
+    },
+    {
+      "id": "vis-tij",
+      "name": "VINSAK Inkjet System VIS TIJ",
+      "category": [
+        "Inkjet Solutions",
+        "Variable Data Printing"
+      ],
+      "summary": "HP Thermal Inkjet-based variable-data printing system for text, numeric data, 1D and 2D barcodes.",
+      "description": "The page describes multi-printhead stitching, support for water-based, invisible and fluorescent inks, printing up to 600 x 600 dpi, USB/Ethernet/Wi-Fi job transfer, bulk ink option, porous and non-porous substrates and password protection.",
+      "specifications": {
+        "technology": "HP Thermal Inkjet (TIJ)",
+        "resolution": "Up to 600 x 600 dpi",
+        "printhead_width_options": "0.5 inch (12.7 mm), 1 inch (25.4 mm), 2 inch (50.8 mm)",
+        "ink_types": "Water-based, invisible, fluorescent and other HP-certified inks",
+        "operating_temperature": "10–40 °C",
+        "operating_humidity": "10–80%",
+        "voltage": "220 V",
+        "power": "120 W"
+      },
+      "applications": [
+        "Text and numeric variable data",
+        "1D barcodes",
+        "2D barcodes",
+        "Printing on porous and non-porous materials"
+      ],
+      "example": "A packaging line prints a batch number, expiry date and QR code onto cartons using a TIJ printhead integrated with the line controller.",
+      "source_url": "https://vinsak.com/vinsak-inkjet-system-vis-tij/",
+      "data_quality_note": "The page does not state a maximum line speed in the extracted technical table."
+    },
+    {
+      "id": "vis-1200",
+      "name": "VINSAK Inkjet System VIS 1200",
+      "category": [
+        "Inkjet Solutions",
+        "Wide Format Printing"
+      ],
+      "summary": "Modular wide-format piezo drop-on-demand inkjet system for printing on multiple paper substrates.",
+      "description": "The page describes a modular printhead system, graphical user interface, automated head mounting and cleaning, replaceable print modules and integration with an online RIP. It mentions offset, coated and gloss papers.",
+      "specifications": {
+        "technology": "Piezoelectric drop-on-demand",
+        "resolution_modes": "600 x 300 dpi; 600 x 600 dpi",
+        "print_width": "108 mm modules; system width up to 540 mm",
+        "ink_types": "UV-curable or water-based",
+        "speed_water_based": "75–150 m/min",
+        "speed_uv": "50–100 m/min",
+        "bulk_ink": "10 L and 20 L bottles available"
+      },
+      "applications": [
+        "Commercial printing",
+        "Transactional printing",
+        "Security printing",
+        "Labels",
+        "Flexible packaging",
+        "1D/2D codes"
+      ],
+      "example": "A print service provider configures multiple 108 mm modules to cover a wider web and prints variable information across a production run.",
+      "source_url": "https://vinsak.com/vinsak-inkjet-system-vis-1200/",
+      "data_quality_note": "The product page includes differing speed ranges for water-based and UV systems; select values based on the actual ink configuration."
+    },
+    {
+      "id": "npm-480-570-630",
+      "name": "VINSAK NPM 480/570/630",
+      "category": [
+        "Numbering & Perforating Machines",
+        "Sheet Fed Solutions"
+      ],
+      "summary": "Automatic numbering and perforating machine for sheet-fed applications.",
+      "description": "The page lists lateral and vertical perforation, resin-plate numbering, up to 8,000 sheets/hour, optional LCD computer control, oil-free vacuum pump technology, sheet detection and safety features.",
+      "specifications": {
+        "models": [
+          "NPM 480",
+          "NPM 570",
+          "NPM 630"
+        ],
+        "maximum_paper_sizes": {
+          "NPM 480": "470 x 360 mm",
+          "NPM 570": "560 x 400 mm",
+          "NPM 630": "620 x 440 mm"
+        },
+        "paper_weight": "28–250 gsm",
+        "printing_speed": "2,000–8,000 sheets/hour",
+        "power_supply": "220 V / 50 Hz",
+        "net_weights": {
+          "NPM 480": "280 kg",
+          "NPM 570": "320 kg",
+          "NPM 630": "370 kg"
+        }
+      },
+      "applications": [
+        "Numbering",
+        "Perforating",
+        "Sheet-fed print finishing"
+      ],
+      "example": "A forms printer numbers and perforates printed sheets before they are separated into individual forms or tickets.",
+      "source_url": "https://vinsak.com/vinsak-npm-480-570-630/",
+      "data_quality_note": "The source table's minimum-paper-size row is poorly formatted; do not infer model-specific minimum sizes from the extracted text."
+    }
+  ]
+}

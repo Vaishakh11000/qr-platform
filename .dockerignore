@@ -1,0 +1,15 @@
+.git
+.env
+.env.lan
+deployment/certs
+deployment/certs-lan
+.venv
+**/node_modules
+**/.next
+**/dist
+**/__pycache__
+**/.pytest_cache
+backups
+storage
+backend/data/vinsak_seed/downloaded_assets
+VINSAK_Codex_Product_Images_and_Brochures_Pack.zip

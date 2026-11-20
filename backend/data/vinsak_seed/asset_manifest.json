@@ -1,0 +1,421 @@
+{
+  "source": "VINSAK official website and linked Rotatek pages",
+  "captured_on": "2026-11-18",
+  "download_status": "Initial 13 image and 8 brochure assets downloaded; additional still images were discovered on official linked product pages and added. Downloads are local draft assets and must not be published until licensing permission is confirmed.",
+  "assets": [
+    {
+      "product": "USAR",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2025/02/USAR-HB-768x512.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail; verify full-size gallery images on product page."
+    },
+    {
+      "product": "USAR",
+      "asset_type": "product_page",
+      "url": "https://vinsak.com/vinsak-usar-universal-slitter-and-rewinder/",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Product detail page; contains product imagery and product details."
+    },
+    {
+      "product": "LABEL-DECORE",
+      "asset_type": "brochure_pdf",
+      "url": "https://vinsak.com/wp-content/uploads/2025/02/Label-decore_compressed.pdf",
+      "source_page": "https://vinsak.com/label-decore/",
+      "note": "Official 2-page brochure."
+    },
+    {
+      "product": "LABEL-DECORE",
+      "asset_type": "product_page",
+      "url": "https://vinsak.com/label-decore/",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Product detail page; inspect for additional official product images."
+    },
+    {
+      "product": "UNIVERSAL 520 | 680 | 850",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2024/11/UNIVERSAL_3-1.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "UNIVERSAL 520 | 680 | 850",
+      "asset_type": "product_page",
+      "url": "https://rotatek.com/printing-machinery/universal/",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Detail page is on Rotatek."
+    },
+    {
+      "product": "RK-250 Plus",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2024/11/rk-plus-2-768x723.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "RK-250 Plus",
+      "asset_type": "product_page",
+      "url": "https://rotatek.com/printing-machinery/rk-250-plus/",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Detail page is on Rotatek."
+    },
+    {
+      "product": "PERFECT NT / RK-500",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2024/11/Perfect-NT-768x581.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "PERFECT NT / RK-500",
+      "asset_type": "product_page",
+      "url": "https://rotatek.com/printing-machinery/perfect-nt/",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Detail page is on Rotatek."
+    },
+    {
+      "product": "BRAVA 450",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2024/11/brava-450-03-768x512.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "BRAVA 450",
+      "asset_type": "product_page",
+      "url": "https://rotatek.com/printing-machinery/brava-450/",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Detail page is on Rotatek."
+    },
+    {
+      "product": "SPEED-JET Monochrome 1200 I",
+      "asset_type": "brochure_pdf",
+      "url": "https://vinsak.com/wp-content/uploads/2025/02/Speed-jet-1200i.pdf",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Official brochure; PDF title/spec table uses VIS 1200 I UV/AQ. Confirm model naming before public publishing."
+    },
+    {
+      "product": "SPEED-JET Monochrome 1200 I",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/03/speedjet-768x572.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/VINSAK-Security-Software-1-768x714.png",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail; product detail page may contain additional product imagery."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "product_page",
+      "url": "https://vinsak.com/vinsak-security-software/",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Product detail page; inspect for additional official product images."
+    },
+    {
+      "product": "VIS 720-i",
+      "asset_type": "brochure_pdf",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/VINSAK-VIS-720-i.pdf",
+      "source_page": "https://vinsak.com/vis-720-i/",
+      "note": "Official 2-page brochure."
+    },
+    {
+      "product": "VIS 720-i",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/VINSAK-VIS-720-i-1-768x256-1-768x512.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "VINSAK Roll Lifter VRL-S-200",
+      "asset_type": "brochure_pdf",
+      "url": "https://vinsak.com/wp-content/uploads/2023/04/Swivel-Type-Roll-Lifter.pdf",
+      "source_page": "https://vinsak.com/vinsak-roll-lifter-vrl-series/",
+      "note": "Official brochure; includes diagrams and specs."
+    },
+    {
+      "product": "VINSAK Roll Lifter VRL-S-200",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/11-768x579.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail; note listing excerpt is mismatched but detail page identifies roll lifter."
+    },
+    {
+      "product": "DigiJet 1000/2000",
+      "asset_type": "brochure_pdf",
+      "url": "https://vinsak.com/wp-content/uploads/2023/05/VINSAK-DIGI-Jet-1000.pdf",
+      "source_page": "https://vinsak.com/vinsak-digijet/",
+      "note": "Official 2-page brochure. Note brochure technical width data differs from product page; do not merge without verification."
+    },
+    {
+      "product": "DigiJet 1000/2000",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2023/05/222-768x350.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "VIS TIJ",
+      "asset_type": "brochure_pdf",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/VINSAK-TIJ.pdf",
+      "source_page": "https://vinsak.com/vinsak-inkjet-system-vis-tij/",
+      "note": "Official PDF brochure."
+    },
+    {
+      "product": "VIS TIJ",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/03/VINSAK-TIJ-1-768x256-1-768x512.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "VIS 1200",
+      "asset_type": "brochure_pdf",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/VINSAK-VIS-1200-K-1.pdf",
+      "source_page": "https://vinsak.com/vinsak-inkjet-system-vis-1200/",
+      "note": "Official brochure title says VIS1200-K; current page says VIS 1200. Confirm variant."
+    },
+    {
+      "product": "VIS 1200",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/03/VINSAK-VIS-1200-1-768x256-1-768x512.jpg",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "NPM 480/570/630",
+      "asset_type": "brochure_pdf",
+      "url": "https://vinsak.com/wp-content/uploads/2023/04/VINSAK-NPM_Final.pdf",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Official PDF brochure."
+    },
+    {
+      "product": "NPM 480/570/630",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/03/NPM-Numbering-Perforating-Machines.png",
+      "source_page": "https://vinsak.com/products/",
+      "note": "Listing thumbnail."
+    },
+    {
+      "product": "USAR",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/03/VINSAK-USAR-Universal-Slitter-Rewinder-.jpg",
+      "source_page": "https://vinsak.com/vinsak-usar-universal-slitter-and-rewinder/",
+      "note": "Official product detail-page still image."
+    },
+    {
+      "product": "LABEL-DECORE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2025/02/label-decore.jpg",
+      "source_page": "https://vinsak.com/label-decore/",
+      "note": "Full-size official product-page image."
+    },
+    {
+      "product": "LABEL-DECORE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2025/02/5.jpg",
+      "source_page": "https://vinsak.com/label-decore/",
+      "note": "Official product gallery still image."
+    },
+    {
+      "product": "LABEL-DECORE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2025/02/1.png",
+      "source_page": "https://vinsak.com/label-decore/",
+      "note": "Official product gallery still image."
+    },
+    {
+      "product": "UNIVERSAL 520 | 680 | 850",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/universal-21.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/universal/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "UNIVERSAL 520 | 680 | 850",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/universal-41.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/universal/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "UNIVERSAL 520 | 680 | 850",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/universal-31.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/universal/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "UNIVERSAL 520 | 680 | 850",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/universal-1.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/universal/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "RK-250 Plus",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/rk-plus-2-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/rk-250-plus/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "RK-250 Plus",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/rk-plus-4-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/rk-250-plus/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "RK-250 Plus",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/rk-plus-3-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/rk-250-plus/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "PERFECT NT / RK-500",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/perfect-nt-2-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/perfect-nt/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "PERFECT NT / RK-500",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/perfect-nt-6-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/perfect-nt/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "PERFECT NT / RK-500",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/perfect-nt-5-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/perfect-nt/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "PERFECT NT / RK-500",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/perfect-nt-4-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/perfect-nt/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "PERFECT NT / RK-500",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/perfect-nt-3-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/perfect-nt/",
+      "note": "Official Rotatek product gallery still image."
+    },
+    {
+      "product": "BRAVA 450",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/2016/03/brava-450-01-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/brava-450/",
+      "note": "Official Rotatek BRAVA 450 gallery still image."
+    },
+    {
+      "product": "BRAVA 450",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/2016/03/brava-450-02-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/brava-450/",
+      "note": "Official Rotatek BRAVA 450 gallery still image."
+    },
+    {
+      "product": "BRAVA 450",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/2016/03/brava-450-03-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/brava-450/",
+      "note": "Official Rotatek BRAVA 450 gallery still image."
+    },
+    {
+      "product": "BRAVA 450",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/2016/03/brava-450-04-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/brava-450/",
+      "note": "Official Rotatek BRAVA 450 gallery still image."
+    },
+    {
+      "product": "BRAVA 450",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/2016/03/brava-450-05-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/brava-450/",
+      "note": "Official Rotatek BRAVA 450 gallery still image."
+    },
+    {
+      "product": "BRAVA 450",
+      "asset_type": "image",
+      "url": "https://rotatek.com/wp-content/uploads/2016/03/brava-450-06-270x270.jpg",
+      "source_page": "https://rotatek.com/printing-machinery/brava-450/",
+      "note": "Official Rotatek BRAVA 450 gallery still image."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/VINSAK-Security-Software-1.png",
+      "source_page": "https://vinsak.com/vinsak-security-software/",
+      "note": "Official product detail-page image."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/Spirals-2-Wheels-300x225-1.png",
+      "source_page": "https://vinsak.com/vinsak-security-software/",
+      "note": "Official product feature still image."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/Border-Generation.png",
+      "source_page": "https://vinsak.com/vinsak-security-software/",
+      "note": "Official product feature still image."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/Relief-Generation.png",
+      "source_page": "https://vinsak.com/vinsak-security-software/",
+      "note": "Official product feature still image."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/Pattern-Relief-300x225-1.png",
+      "source_page": "https://vinsak.com/vinsak-security-software/",
+      "note": "Official product feature still image."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/Line-Modulation.png",
+      "source_page": "https://vinsak.com/vinsak-security-software/",
+      "note": "Official product feature still image."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/Microtext-Nano-Text-hidden-image-in-Micro-Text-300x225-1.png",
+      "source_page": "https://vinsak.com/vinsak-security-software/",
+      "note": "Official product feature still image."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/Hidden-images-in-dots-and-lines-300x225-1.png",
+      "source_page": "https://vinsak.com/vinsak-security-software/",
+      "note": "Official product feature still image."
+    },
+    {
+      "product": "VINSAK SECURITY SOFTWARE",
+      "asset_type": "image",
+      "url": "https://vinsak.com/wp-content/uploads/2022/04/Anticopy-Designs.png",
+      "source_page": "https://vinsak.com/vinsak-security-software/",
+      "note": "Official product feature still image."
+    }
+  ],
+  "scope": "Official product images, product detail pages for image-gallery discovery, and brochure PDFs only. Video assets intentionally excluded."
+}
